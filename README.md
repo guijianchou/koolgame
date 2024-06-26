@@ -28,5 +28,8 @@ config.json:
 ```
   
 4.Mv config.json to game-server same folder  
-5.Execute: ./game-server -c config.json -d  
+5.Execute in background:
+```
+./game-server -c config.json -d
+``` 
 6.find an traffic transfer provider like "NNR" "Gorelay"  
