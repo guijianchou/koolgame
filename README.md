@@ -38,7 +38,8 @@ config.json:
 shadowsocks.tar.gz sh1sum:4182a7a72e31c324f63959a81bd983ce80b3d2dd
 ```
 This ss ver3.6 work perfect with koolgame v2 along with uu booster, very tiny.  
-``` remove ss install restricted
+remove ss install restricted  
+```
 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh 
 ```
 
