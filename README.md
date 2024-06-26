@@ -33,13 +33,13 @@ config.json:
 ./game-server -c config.json -d
 ``` 
 6.find an traffic transfer provider like "NNR" "Gorelay"  
-7.Downloads and install [shadowsocks.tar.gz](https://dl.falsemeet.pro/Share/shadowsocks.tar.gz) on your koolshare merlin firmware:  
-'''
+7.Downloads and install [shadowsocks.tar.gz](https://dl.falsemeet.pro/Share/shadowsocks.tar.gz) on your koolshare merlin firmware:    
+```
 shadowsocks.tar.gz sh1sum:4182a7a72e31c324f63959a81bd983ce80b3d2dd
-'''
-This ss ver3.6 work perfect with koolgame v2 and along with uu booster, very tiny.
-''' remove ss install restricted
+```
+This ss ver3.6 work perfect with koolgame v2 and along with uu booster, very tiny.  
+``` remove ss install restricted
 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh 
-'''
+```
 
 8.fill in config and enjoy u game  
