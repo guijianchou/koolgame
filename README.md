@@ -15,14 +15,14 @@ config.json:
     "server":"0.0.0.0",
     "local_port":1080,
     "timeout": 600,
-    "method":"chacha20",
+    "method":"chacha20", #cfb,chacha,md5 chose what you like
     "port_password":
     {
-        "port": "password"
+        "port": "password" #port do not include 53,22,80,443
     },
     "_comment":
     {
-        "端口1": "HK"
+        "Prot 1": "HK"
     }
 }
 ```
