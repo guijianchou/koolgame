@@ -8,9 +8,9 @@ game-server sha1sum:d7cc165b336ca955d97d32c20d2f357405a9340d
 ```bash
 chmod 777 game-server
 ```
-3.Edit config file:  
-config.json:  
+3.Edit config file:   
 ```Json
+config.json:
 {
     "server":"0.0.0.0",
     "local_port":1080,
