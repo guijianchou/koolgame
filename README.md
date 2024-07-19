@@ -1,6 +1,6 @@
 This project based on koolgame(abandoned by koolshare team), as traffic transfer get cheaper about 25RMB/1TB/3month, self-hosted ss with udp proxy more effinciently  
   
-1.Downloads [game-server](https://https://dl.falsemeet.pro/Share/game-server)  and check sha1sum to your VPS  
+1.Downloads [game-server](https://dl.falsemeet.pro/Share/game-server)  and check sha1sum to your VPS  
 ```shasum
 game-server sha1sum:d7cc165b336ca955d97d32c20d2f357405a9340d
 ```
@@ -10,7 +10,7 @@ chmod 777 game-server
 ```
 3.Edit config file:   
 ```Json
-config.json:
+config.json simple:
 {
     "server":"0.0.0.0",
     "local_port":1080,
