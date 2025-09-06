@@ -1,4 +1,6 @@
 This project based on koolgame(abandoned by koolshare team), as traffic transfer get cheaper about 25RMB/1TB/3month, self-hosted ss with udp proxy more effinciently  
+
+all add-on only work on Merlin380 && Koolshare firmware
   
 1.Downloads [game-server](https://dl.falsemeet.pro/Share/game-server)  and check sha1sum to your VPS  
 ```shasum
